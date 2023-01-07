@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Homework - 5.2 - MaterialMe</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">News</string>
+    <string name="sports_info_placeholder">Here is some news</string>
+    <string name="sports_image">sports_image</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+
+
+    <string-array name="sports_titles">
+        <item>Baseball</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Bowling</item>
+        <item>Cycling</item>
+        <item>Golf</item>
+        <item>Running</item>
+        <item>Soccer</item>
+        <item>Swimming</item>
+        <item>Table Tennis</item>
+        <item>Tennis</item>
+    </string-array>
+
+    <array name="sports_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_bowling</item>
+        <item>@drawable/img_cycling</item>
+        <item>@drawable/img_golf</item>
+        <item>@drawable/img_running</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_swimming</item>
+        <item>@drawable/img_tabletennis</item>
+        <item>@drawable/img_tennis</item>
+    </array>
+
+    <string-array name="sports_info">
+        <item>Here is some Baseball news!</item>
+        <item>Here is some Badminton news!</item>
+        <item>Here is some Basketball news!</item>
+        <item>Here is some Bowling news!</item>
+        <item>Here is some Cycling news!</item>
+        <item>Here is some Golf news!</item>
+        <item>Here is some Running news!</item>
+        <item>Here is some Soccer news!</item>
+        <item>Here is some Swimming news!</item>
+        <item>Here is some Table Tennis news!</item>
+        <item>Here is some Tennis news!</item>
+    </string-array>
+
+    <string-array name="sports_details">
+        <item>Baseball, permainan bola beregu yang dimainkan oleh dua tim,
+            yaitu tim pelempar (pitcher) dan tim pemukul (batter). Permainan dimulai saat pitcher
+            atau pelempar, melemparkan bola kepada pemukul yang disebut batter. Baseball hampir
+            sama dengan softball, namun ukuran alat yang digunakan serta lapangannya berbeda. </item>
+
+        <item> Badminton, suatu olahraga yang menggunakan alat yang berbentuk bulat dengan memiliki
+           rongga-rongga di bagian pemukulnya. Dan memiliki gagang. Alat ini dikenal dengan nama
+           raket yang dimainkan oleh dua orang (untuk tunggal) atau dua pasangan (untuk ganda) yang
+           saling berlawanan.Mirip dengan tenis, bulu tangkis bertujuan memukul bola permainan bulu
+           tangkis, yaitu kok (shuttlecock) melewati jaring agar jatuh di bidang permainan lawan
+           yang sudah ditentukan dan berusaha mencegah lawan melakukan hal yang sama. </item>
+
+        <item>Basketball, olahraga bola berkelompok yang terdiri atas dua tim beranggotakan
+            masing-masing lima orang yang saling bertanding mencetak poin dengan memasukkan bola
+            ke dalam keranjang lawan.Bola basket dapat di lapangan terbuka, walaupun pertandingan
+            profesional pada umumnya dilakukan di ruang tertutup.
+            Lapangan pertandingan yang diperlukan juga relatif tidak besar, misal dibandingkan
+            dengan sepak bola. </item>
+
+        <item>Bowling, jenis permainan dan olahraga yang kegiatannya hanya menggelindingkan
+            bola boling dengan menggunakan satu tangan hingga mengenai pin segitiga
+            yang berjumlah sepuluh buah. </item>
+
+        <item>Cycling,sebuah kegiatan rekreasi atau olahraga, serta merupakan salah satu moda
+            transportasi darat yang menggunakan sepeda. Sepeda pertama kali diperkenalkan
+            pada abad ke-19 Masehi. Banyak penggemar bersepeda yang melakukan kegiatan tersebut
+            di berbagai macam medan, misalnya perbukitan, medan yang terjal maupun hanya sekadar
+            dipedesaan dan perkotaan saja.Orang yang mempergunakan sepeda sebagai moda transportasi
+            rutin juga dapat disebut komuter. Penggunaan sepeda sebagai moda transportasi rutin
+            tidak hanya dilakukan oleh pekerja yang bekerja di sektor non-formal,
+            tetapi juga dilakukan oleh pekerja yang bekerja di sektor formal.  </item>
+
+        <item>Golf,  permainan luar ruang yang dimainkan secara perorangan atau tim yang berlomba
+            memasukkan bola ke dalam lubang-lubang yang ada di lapangan dengan jumlah pukulan
+            tersedikit mungkin. Bola dipukul dengan menggunakan satu set tongkat pemukul yang
+            disebut klab (stik golf). </item>
+
+        <item>Running, lari dalam menempuh jarak tertentu yang relatif pendek, dalam waktu singkat,
+            dan dengan kecepatan yang maksimal, dari garis start sampai ke finish.[1] Umumnya lari
+            cepat ini dilaksanakan dalam olahraga, baik untuk mengejar target waktu maupun mengejar
+            kawan dan lawan dalam bertanding. Secara alami manusia mampu berlari cepat maksimal
+            selama 30–35 detik. Salah satu nomor lari cepat adalah lari 100 meter sebagai nomor
+            lari jarak pendek. Pada lari jarak pendek, atlet diharuskan menempuh seluruh jarak atau
+            sepanjang jarak yang ditempuh dengan kecepatan semaksimal mungkin atau dengan kecepatan
+            penuh </item>
+
+        <item>Soccer, salah satu cabang olahraga tim, yang masing-masing pemainnya umumnya
+            memainkan suatu bola khusus (yang disebut bola sepak) dengan kaki mereka di atas
+            lapangan khusus. Olahraga ini dimainkan oleh dua tim yang masing-masing beranggotakan
+            11 (sebelas) orang pemain inti dan beberapa pemain cadangan. Memasuki abad ke-21,
+            olahraga ini telah dimainkan oleh lebih dari 250 juta orang di 200 negara.
+            Sepak bola bertujuan untuk mencetak gol sebanyak-banyaknya dengan memasukan bola
+            ke gawang lawan. Sepak bola dimainkan dalam lapangan terbuka yang berbentuk persegi
+            panjang, di atas rumput atau rumput sintetis. </item>
+
+        <item>Swimming,gerakan sewaktu bergerak di air. Berenang biasanya dilakukan tanpa
+            perlengkapan buatan. Kegiatan ini dapat dimanfaatkan untuk rekreasi dan olahraga.
+            Berenang dipakai sewaktu bergerak dari satu tempat ke tempat lainnya di air,
+            mencari ikan, mandi, atau melakukan olahraga air.Berenang sangat berguna sebagai
+            alat pendidikan, sebagai rekreasi yang sehat, menanamkan keberanian, percaya diri,
+            dan sebagai terapi yang terkadang dianjurkan oleh dokter, serta untuk keselamatan
+            diri atau orang lain</item>
+
+        <item>Table Tennis, olahraga yang melibatkan dua atau empat pemain yang memukul bola ringan
+            yang disebut bola pingpong di atas meja menggunakan raket pejal kecil yang disebut bet.
+            Permainan ini dilakukan di atas meja yang dibagi dengan net.</item>
+
+        <item>Tennis,  olahraga yang biasanya dimainkan antara dua pemain atau antara dua
+            pasangan masing-masing dua pemain. Setiap pemain menggunakan raket untuk memukul
+            bola karet. Tujuan permainan adalah memainkan bola dengan cara tertentu sehingga
+            pemain lawan tidak dapat mengembalikan bola tersebut. </item>
+    </string-array>
+
+</resources>

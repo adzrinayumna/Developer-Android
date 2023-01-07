@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Simple Calc 2</string>
+
+    <!-- Hint for first operand EditText -->
+    <string name="type_operand_one_hint">Type Operand 1</string>
+
+    <!-- Hint for second operand EditText -->
+    <string name="type_operand_two_hint">Type Operand 2</string>
+
+    <!-- Button label for add operation -->
+    <string name="add_operation_text">Add</string>
+
+    <!-- Button label for subtract operation -->
+    <string name="sub_operation_text">Sub</string>
+
+    <!-- Button label for divide operation -->
+    <string name="div_operation_text">Div</string>
+
+    <!-- Button label for mul operation -->
+    <string name="mul_operation_text">Mul</string>
+
+    <!-- Message for textview in case of errors  -->
+    <string name="computationError">Error</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+
+</resources>

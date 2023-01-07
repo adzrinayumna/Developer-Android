@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="@string/textview"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="345dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#A581E4"
+        android:text="@string/textbt1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:onClick="launchOne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="345dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#40A3F3"
+        android:text="@string/textbt2"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:onClick="launchTwo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="345dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#EFE162"
+        android:text="@string/textbt3"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:onClick="launchThree"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

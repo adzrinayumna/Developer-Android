@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="id.ac.e020320033.challenge_45_recyclerview.MainActivity">
+
+    <item
+        android:id="@+id/action_reset"
+        android:orderInCategory="100"
+        android:title="Reset"
+        app:showAsAction="never" />
+</menu>

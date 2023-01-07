@@ -1,0 +1,35 @@
+package id.ac.e020320033.task5_43_pickerdate;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.DialogFragment;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setTitle("Yumna - Task 5 - Picker Date");
+        setContentView(R.layout.activity_main);
+    }
+
+    public void showDatePicker(View view) {
+        DialogFragment newFragment = new DatePickerFragment();
+        newFragment.show(getSupportFragmentManager(),"datePicker");
+    }
+
+    public void processDatePickerResult(int year, int month, int day) {
+        String month_string = Integer.toString(month+1);
+        String day_string = Integer.toString(day);
+        String year_string = Integer.toString(year);
+        String dateMessage = (month_string +
+                "/" + day_string +
+                "/" + year_string);
+        Toast.makeText(this, getString(R.string.date) + dateMessage,
+                Toast.LENGTH_SHORT).show();
+    }
+
+}
